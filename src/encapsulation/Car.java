@@ -2,8 +2,9 @@ package encapsulation;
 
 public class Car {
 
+
     //instance variables
-    public String make;
+    public String make= "BMW";
     private int year;
     private double price; //require a password
     private boolean isConvertible = true; //nobody can change without set method provided
@@ -14,6 +15,7 @@ public class Car {
     }
 
     public int getYear(){
+
         return year;
     }
 
@@ -32,3 +34,6 @@ public class Car {
         return isConvertible;
     }
 }
+
+
+
