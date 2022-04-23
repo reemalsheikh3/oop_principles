@@ -8,6 +8,7 @@ public class Nokia extends Phone {
     }
 
     public Nokia(String brand, String color, int storage, double price) {
+
         super(brand, color, storage, price);
     }
 

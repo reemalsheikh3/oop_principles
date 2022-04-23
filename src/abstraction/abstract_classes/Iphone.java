@@ -7,6 +7,7 @@ public class Iphone extends Phone implements Camera, BlueTooth{
     }
 
     public Iphone(String brand, String color, int storage, double price) {
+
         super(brand, color, storage, price);
     }
 
